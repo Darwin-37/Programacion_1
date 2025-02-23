@@ -1,1 +1,1 @@
-public 
+public class void main
