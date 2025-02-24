@@ -1,17 +1,19 @@
 import java.util.Scanner;
+
 public class Salario {
- public static void main(String[] args) {
+    public static void main(String[] args) {
 
         Scanner leer = new Scanner(System.in);
         System.out.print(" Digite la tarifa horaria : ");
         double tf = leer.nextDouble();
+
         System.out.print(" Digite las horas trabajadas : ");
         int ht = leer.nextInt();
 
         System.out.print(" Digite los dias trabajados : ");
         int dt = leer.nextInt();
 
-        double s;
+        double s = 0.0;
 
         s = (tf * ht) * dt;
 

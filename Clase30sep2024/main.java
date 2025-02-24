@@ -9,9 +9,10 @@ public class main {
         double l = 3.14 * (radio * radio);
         double a = (radio * radio) * 3.1416;
         
-        System.out.print ("La longitud de la circunferencia es : " +l+ " y el area de la misma circunfere
+        System.out.print ("La longitud de la circunferencia es : " 
+        +l+ " y el àrea de la misma circunfere");
         
-        scanner.close();
+        leer.close();
         
     }
     
