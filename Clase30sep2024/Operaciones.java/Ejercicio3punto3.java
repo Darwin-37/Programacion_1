@@ -3,7 +3,7 @@ public class Ejercicio3punto3 {
 
         // Calcumos la siguiente operacion matematica
 
-        
+
 
 }
 }

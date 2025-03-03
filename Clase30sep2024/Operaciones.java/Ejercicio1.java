@@ -6,10 +6,12 @@ public class Ejercicio1 {
         int B = 2;
 
         // Hacemos el calculo siguiente
+
+        double solucion = (A*B);
         
 
         // Mostrar el resultado de toda la operacion
-        System.out.println("El resultado del calculo es: " + operacion);
+        System.out.println("El resultado del calculo es: " + solucion);
 
     }
 }
