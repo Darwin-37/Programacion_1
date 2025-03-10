@@ -1,17 +1,25 @@
+import java.util.Scanner;
+
 public class Ejercicio1 {
+
     public static void main(String[] args) {
 
-        // Declaramos las variables
-        int A = 4;
-        int B = 2;
+        // Clase que permite a traves del objeto "leer" socilitar
+        // datos por teclado
+        Scanner leer = new Scanner(System.in);
 
-        // Hacemos el calculo siguiente
+        // Se declaran las variables o las variables
+        double angulo;
 
-        double solucion = (A*B);
-        
+        // Solicitara por terclado el angulo para su validacion
+        System.out.print("Digite el angulo: ");
+        angulo = leer.nextInt();
 
-        // Mostrar el resultado de toda la operacion
-        System.out.println("El resultado del calculo es: " + solucion);
-
+        // Condicional
+        if (angulo == 90) {
+            System.out.println("El angulo es recto ");
+        } else {
+            System.out.print("El angulo NO es recto ");
+        }
     }
 }
