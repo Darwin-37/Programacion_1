@@ -17,12 +17,12 @@ public class Dulcealgoritmo {
 double ctp = (costobarra + costoempaque) * n;
 double pvb = (costobarra + costoempaque) * (1 + ganancia);
 double ingt = (pvb) + n;
-double cc = (n/10);
-double bs = (n % 10);
+int cc = (n/10);
+int bs = (n % 10);
 
-System.out.println("Costo de produccion: " + ctp);
-System.out.println("Precio venta por barra: "+ pvb);
-System.out.println("Ingreso total: "+ ingt);
+System.out.println("Costo de produccion:$ " + ctp);
+System.out.println("Precio venta por barra:$ "+ pvb);
+System.out.println("Ingreso total:$15 "+ ingt);
 System.out.println("Cajas completas: "+ cc);
 System.out.println("Barras sobrantes: "+ bs);
 }
