@@ -20,6 +20,7 @@ public class CajeroElectronico {
     }
 
     public void retirar(double cantidad) {
+        saldo -= cantidad;
         if (cantidad <= saldo) {
             System.out.println("El nuevo saldo es : " + saldo);
         } else {
@@ -31,9 +32,11 @@ public class CajeroElectronico {
 
     public double consultarSaldo(double cantidad) {
         return saldo;
+
     }
 
     public void transferir(double cantidad, String destino) {
+        saldo -= cantidad;
         if (cantidad <= saldo) {
             System.out.println("Se realizo una transferencia por: " + cantidad +
                     "a:" + destino + " su saldo es de : " + saldo);
